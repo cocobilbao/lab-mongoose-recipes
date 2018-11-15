@@ -38,6 +38,6 @@ mongoose.connect('mongodb://localhost/recipeApp')
   .then(successCallback)
   .catch(errorCallback);
 
-  User.deleteOne({ name: 'Carrot Cake'})
+  Recepie.deleteOne({ name: 'Carrot Cake'})
   .then(successCallback)
   .catch(errorCallback);
